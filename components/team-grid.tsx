@@ -13,6 +13,7 @@ const members = [
   { id: 7, src: "/images/members/1000273833.jpg" },
   { id: 8, src: "/images/members/1000273845.jpg" },
   { id: 9, src: "/images/members/1000273835.jpg" },
+  { id: 10, src: "/images/members/1000273837.jpg" },
 ]
 
 export default function TeamGrid() {

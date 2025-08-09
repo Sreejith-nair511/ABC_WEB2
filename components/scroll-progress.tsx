@@ -31,7 +31,7 @@ export default function ScrollProgress() {
     <div className="fixed top-0 left-0 right-0 h-1 z-[100] overflow-hidden bg-transparent">
       <div
         ref={barRef}
-        className="h-full w-full translate-x-[-100%] bg-[#00FF9C] shadow-[0_0_12px_2px_rgba(0,255,156,0.65)]"
+        className="h-full w-full translate-x-[-100%] bg-[#00FF9C] shadow-[0_0_12px_2px_rgba(0,255,156,0.65)] transition-transform duration-200 ease-out"
       />
     </div>
   )

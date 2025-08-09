@@ -32,7 +32,7 @@ function EventCard({
         {logo ? (
           <div className="size-10 shrink-0 overflow-hidden rounded-full ring-1 ring-[#00FF9C66]">
             {/* External URL per user request; using <img> to avoid Next/Image domain config */}
-            <img src={logo || "/placeholder.svg"} alt="ABC logo" className="h-full w-full object-cover" />
+            <img src={logo || "/about-club.png"} alt="ABC logo" className="h-full w-full object-cover" />
           </div>
         ) : null}
         <div className="min-w-0">
@@ -54,7 +54,7 @@ function EventCard({
             >
               <div className="relative aspect-[16/10] w-full">
                 <img
-                  src={m.src || "/placeholder.svg"}
+                 src={m.src || "/about-club.png"}
                   alt={m.alt}
                   className="h-full w-full object-cover"
                   loading={i > 1 ? "lazy" : "eager"}

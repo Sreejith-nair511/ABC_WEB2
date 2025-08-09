@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-    generator: 'v0.dev'
+    generator: 'superman.dev'
 }
 
 export default function RootLayout({

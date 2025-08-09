@@ -99,17 +99,20 @@ export default function Header() {
           {/* Right side actions */}
           <div className="flex items-center gap-2">
             {/* Join Button - Hidden on small screens */}
-            <button
-              onClick={() => scrollToSection("join")}
-              className="hidden sm:inline-flex min-w-[100px] lg:min-w-[120px] px-3 py-1.5 text-xs lg:text-sm border border-[#00FF9C66] bg-white/10 text-white hover:bg-white/15 rounded-md transition-all duration-200 font-medium"
-            >
-              Join the Club
-            </button>
+            <a
+  href="https://forms.gle/rRWm1VaMCvrfirNy8"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden sm:inline-flex min-w-[100px] lg:min-w-[120px] px-3 py-1.5 text-xs lg:text-sm border border-[#00FF9C66] bg-white/10 text-white hover:bg-white/15 rounded-md transition-all duration-200 font-medium"
+>
+  Join the Club
+</a>
+
 
             {/* Desktop Social Links */}
             <div className="hidden md:flex items-center gap-1">
               <Link
-                href="https://discord.com/"
+                href="https://www.instagram.com/abc.cit?igsh=Ync2ZTA4N2d3bW5t"
                 target="_blank"
                 aria-label="Discord"
                 className="group p-2 rounded-md border border-[#00FF9C33] bg-white/5 hover:bg-white/10 transition-all duration-200 hover:border-[#00FF9C66]"
@@ -117,7 +120,7 @@ export default function Header() {
                 <MessageSquare className="size-4 text-[#00FF9C] group-hover:scale-110 transition-transform" />
               </Link>
               <Link
-                href="https://github.com/"
+                href="https://github.com/Sreejith-nair511"
                 target="_blank"
                 aria-label="GitHub"
                 className="group p-2 rounded-md border border-[#00FF9C33] bg-white/5 hover:bg-white/10 transition-all duration-200 hover:border-[#00FF9C66]"
@@ -125,7 +128,7 @@ export default function Header() {
                 <Github className="size-4 text-[#00FF9C] group-hover:scale-110 transition-transform" />
               </Link>
               <Link
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/algorand-blockchain-club-cit-88051935a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 aria-label="LinkedIn"
                 className="group p-2 rounded-md border border-[#00FF9C33] bg-white/5 hover:bg-white/10 transition-all duration-200 hover:border-[#00FF9C66]"

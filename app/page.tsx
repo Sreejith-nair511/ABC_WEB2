@@ -114,7 +114,7 @@ hover:shadow-[0_0_50px_-8px_rgba(0,255,156,0.9)]
             <div className="relative order-2 md:order-1">
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-[#00FF9C33] bg-white/5 backdrop-blur">
                 <Image
-                  src="/placeholder.svg?height=720&width=960"
+                  src="/about-club.jpg?height=720&width=960"
                   alt="Futuristic blockchain illustration"
                   fill
                   className="object-cover"
