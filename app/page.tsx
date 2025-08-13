@@ -272,7 +272,7 @@ hover:shadow-[0_0_50px_-8px_rgba(0,255,156,0.9)]
           <div className="mb-8 sm:mb-10">
             <h2 className="font-[var(--font-sg)] text-xl sm:text-2xl lg:text-3xl font-semibold">
               <DecryptedText
-                text="Core Members"
+                text="Club advisor and team lead"
                 animateOn="view"
                 sequential
                 className="text-white"
