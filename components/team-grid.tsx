@@ -4,6 +4,8 @@ import { motion } from "motion/react"
 import Image from "next/image"
 
 const members = [
+  { id: 13, src: "/images/members/pd.jpg" },
+  { id: 14, src: "/images/members/nr.jpg" },
   { id: 3, src: "/images/members/1000273831.jpg" },
   { id: 5, src: "/images/members/1000273829.jpg" },
   { id: 8, src: "/images/members/1000273845.jpg" },
